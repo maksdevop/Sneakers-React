@@ -1,0 +1,43 @@
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.overlayVisible {
+    transform: translateX(0);
+}
+
+.drawer {
+    padding: 0 30px;
+    position: absolute;
+    width: 385px;
+    height: 100%;
+    right: 0;
+    background: #fff;
+    box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.drawer h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.drawerEmpty {
+    text-align: center;
+    margin-top: 50%;
+}
+
+.drawerEmpty button {
+    margin-top: 50px;
+}

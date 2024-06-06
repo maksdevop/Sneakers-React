@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', system-ui;
+}
+
+li {
+    list-style-type: none;
+}
+
+span {
+    font-size: 12px;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+b {
+    font-size: 13px;
+}
+
+body {
+    background-color: rgb(70, 70, 167);
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper {
+    background: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    max-width: 1280px;
+    margin: 50px auto;
+}
+
+.content {
+    padding: 40px;
+}
+
+.contentWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.contentWrap input {
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+
+.searchImg {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    position: relative;
+}
+
+.searchImg img {
+    margin-left: 10px;
+}
+
+.sneakers {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cartItem {
+    padding: 10px;
+    border: 1px solid #f3f3f3;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.cartItem p {
+    font-size: 16px;
+    margin-right: 70px;
+    margin-bottom: 5px;
+    max-width: 170px;
+}
+
+.cartItem b {
+    font-size: 14px;
+}
+
+.removeBtn {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.removeInputBtn {
+    position: absolute;
+    width: 20px;
+    top: 9px;
+    cursor: pointer;
+}
+
+.removeBtn:hover {
+    opacity: 1;
+}
+
+.items {
+    flex: 1;
+    overflow: auto;
+}
+
+.items-empty {
+    text-align: center;
+}
+
+.cartBottom,
+.cartTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+.cartTotalBlock {
+    margin-top: 20px;
+}
+
+.cartTotalBlock div {
+    flex: 1;
+    height: 1px;
+    border-bottom: 1px dashed #dfdfdf;
+    position: relative;
+    top: -2px;
+    margin: 0 7px;
+}
+
+.greenButton {
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px;
+    background-color: #9dd558;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid grey;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.greenButton img {
+    position: absolute;
+    top: 18px;
+    right: 40px;
+}
+
+.greenButton:hover {
+    transform: translateY(-7px);
+    box-shadow: 1px 1px 1px rgba(2, 2, 5, 2);
+}

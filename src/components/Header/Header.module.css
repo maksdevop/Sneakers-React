@@ -1,0 +1,29 @@
+header {
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    margin-right: 15px;
+}
+
+.headerRight {
+    display: flex;
+}
+
+.headerRight li {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.headerLeft h3 {
+    text-transform: uppercase;
+}
